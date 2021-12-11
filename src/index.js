@@ -1,17 +1,8 @@
+//1)Necesitamos a React
 import React from 'react';
+//2)Necesitamos a ReactDOM
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//3) Necesitamos un elemento para mostrar
+import App from './App'
+//4)Necesitamos mostrar el componente
+ReactDOM.render(<App></App>,document.getElementById('root'));
